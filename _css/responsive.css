@@ -1,0 +1,40 @@
+@media screen and (max-width: 320px) {
+    .desc {
+        font-size: 12px;
+    }
+    .btn {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 750px) {
+    main.container-main {
+        height: 400px;       
+    }
+    .carrossel-desenhos .owl-carousel .item {
+        height: 250px;
+    }
+    .thumb-desenho .container {
+        width: 500px;
+        
+    }
+}
+@media screen and (min-width: 1000px) {
+    .thumb-desenho .container {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-height: 700px) {
+    main.container-main {
+        height: 340px;       
+    }
+    .carrossel-desenhos .owl-carousel .item {
+        height: 180px;
+    }
+    .thumb-desenho .container {
+        width: 50%;
+        
+    }
+}

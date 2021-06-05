@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+:root {
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+header.container-cabecalho {
+    padding: 1em;
+}
+/* Logo do cabeçalho */
+.logo {
+    font-family: 'Audiowide', cursive;
+    text-shadow: 1em 1em 1em rgba(0, 0, 0, 0.103);    
+}
+.logo .logo-destaque {
+    color: var(--vermelho);
+    font-size: 1.6em;
+}
+
+main.container-main {
+    margin: 0 auto;
+    width: 99%;
+    height: 550px;
+  
+}
+.thumb-desenho {
+    height: 100%; 
+    /* width: 100%; */
+    border-radius: 10px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)),url(../_imagens/tom-e-jerry.jpg);
+    background-size: contain; 
+    background-position: center; 
+    /* opacity: .8; */
+
+}
+.thumb-desenho .container{
+    padding: 10px;
+    width: 45%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo {
+    color: rgb(253, 252, 252);
+    font-size: 2em;
+    /* margin-bottom: 10px; */
+}
+.desc {
+    /* font-size: 1.2em; */
+    color:rgb(236, 236, 236);
+    margin: 10px;
+    text-indent: .5em;
+    /* background-color: rgba(0, 0, 0, 0.63); */
+    /* font-weight: bolder; */
+    font: italic bold 1.1em Times;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+.btn {
+    width: 200px;
+    border: none;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    border-radius: 15px;
+    color: white;
+    background: rgba(0, 0, 0, 0.658);
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn i {
+    margin-right: 5px;
+}
+.carrossel-desenhos .owl-carousel .item {
+    margin-top: 10px;
+    height: 250px;
+        
+}
+.box-desenho {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: block;
+    
+}
+
